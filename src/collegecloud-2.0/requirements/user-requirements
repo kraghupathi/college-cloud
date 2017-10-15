@@ -1,0 +1,23 @@
+Following are the College Cloud 2.0 Requirements. These requirements are based
+on the prior user feedback and observations during the installs
+
+1. College Requirements
+   a) College Cloud should be available in a Bootable Pendrive (32 GB), USB 3.0+
+   b) Collges are expected to have machine (4 GB RAM with i3/i5 processor), 
+      this should be the constraint and the lab set-up should be based on this
+   c) The set-up should support a minimum of 60 users/students
+   d) The set-up should be available as a downloadable with a help document
+   e) Wizard driven set-up. The wizard should have options for 
+        1) Selecting Disciplines and Corresponding Labs in the set-up
+        2) Based on the provide machine Configuration, features can be available 
+            Order - Javascript, Flash, PHP and then other Server Side scripts
+            Remote Triggered - Not to do !
+            Bio-Tech and other related including "Other Disciplines/Labs" last !
+        3) An interface to download server side labs
+   f) College/Institute name and Logo to be included name.vlabs.ac.in
+   g) Flexibility to switch-off/on labs using an interface
+   
+2. System Requirements        
+   a) Access to usage for Analytics
+   b) Ability to do Patching and other Updates
+   c) Relative Pathing of Labs
