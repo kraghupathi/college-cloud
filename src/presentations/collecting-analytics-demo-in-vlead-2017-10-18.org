@@ -22,7 +22,7 @@
 ** Select labs for the workshop
    Before conducting college cloud workshop select the labs from
    interested streams or disciplines
-   1) Visit =[[http://vlabs.ac.in/][vlabs.ac.in]]=
+   1) Visit [[http://vlabs.ac.in/][vlabs.ac.in]]
    2) Select any lab (example : - [[http://vlabs.ac.in/courses/course-v1:NIT-Surathkal+CIVIL20+Anytime/about][fluid-mechanics]])
    3) Visit simulation section of any experiemnt of chosen lab on
       step(2)
