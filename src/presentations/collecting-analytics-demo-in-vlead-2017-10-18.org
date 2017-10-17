@@ -18,8 +18,7 @@
     
     1) Access the URL - http://<college-cloud-server-ip>/cc_registration.
     2) Fill the details and click on Save button.
-   
-   (Note: 
+
 ** Select labs for the workshop
    Before conducting college cloud workshop select the labs from
    interested streams or disciplines
