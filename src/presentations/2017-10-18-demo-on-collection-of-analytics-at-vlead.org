@@ -1,0 +1,172 @@
+#+Title: Demonstrate College Cloud to run virtual labs and to collect and post analytics
+#+Author: VLEAD Systems
+#+DATE: [2017-10-17]
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ../org-templates/level-1.org
+#+options: ^:nil
+
+* Introduction
+  
+  This is presentation on how to access labs from college
+  cloud, collect analytics and push analytics to the cloud.
+
+* Setup
+  A college cloud is set up on the VLEAD premises.  This is
+  used for this demonstration.  The IP address of this
+  machine is =10.2.57.3=.  To access this machine:
+  1. Connect to wifi with SSID =college-cloud=.  The
+     password is =vlead-cc=.
+  2. Ensure no proxy is set in the browser when accessing
+     virtual labs from the college cloud. 
+
+* Registration (first time only) 
+  College would need to register with College Cloud Edition before
+  the first use. For registration please follow the below steps -
+    
+   1. Access the URL
+      =http://<college-cloud-server-ip>/cc_registration= 
+      #+BEGIN_EXAMPLE
+       http://10.2.57.3/cc_registration
+      #+END_EXAMPLE
+   2. Fill the details and click on Save button.
+
+* Show the current analytics
+  [[View college cloud analytics]]
+
+* Select labs for the workshop
+  Before conducting college cloud workshop, select the labs
+  from interested streams or disciplines.
+
+  1. Switch back to =college-cloud= wifi.
+  2. Open the college cloud client.
+  3. Visit [[http://vlabs.ac.in/][vlabs.ac.in]]
+  4. Sign in with the below credentials
+     #+BEGIN_EXAMPLE
+     Email: staff@example.com
+     Password: edx
+     #+END_EXAMPLE
+    
+  5. Select a lab (example : =Fluid Mechanics=).  To select
+     this lab, click on =Explore Courses= and search for the
+     string =Fluid Mechanics=.
+  6. Visit simulation section of any experiment.
+  7. Submit the feedback for the experiment.
+
+* Post process the college cloud workshop data
+
+  1. Login into the =college-cloud= machine =10.2.57.3=
+     #+BEGIN_EXAMPLE
+      ssh vlabs@10.2.57.3
+     #+END_EXAMPLE
+  2. Change directory to =log_collection=
+     #+BEGIN_EXAMPLE
+      cd ~/log_collection
+     #+END_EXAMPLE
+  3. Run the python script =get_logs.py= to collect the logs
+     #+BEGIN_EXAMPLE
+      python get_logs.py
+     #+END_EXAMPLE
+  4. The above step generates
+     =iiith-date-wise-dump-<today's-date>.tar.gz= at
+     location =/var/www/html/college-cloud-data/=.  This
+     file contains contains feedback and usage analytics.
+  5. Login as =root= to collect the file.
+     #+BEGIN_EXAMPLE
+      sudo su -
+     #+END_EXAMPLE
+  6. Change directory to
+     =/var/www/html/college-cloud-data=.
+     #+BEGIN_EXAMPLE
+      cd /var/www/html/college-cloud-data
+     #+END_EXAMPLE
+  7. To list the contents
+     #+BEGIN_EXAMPLE
+      tar tvf =iiith-date-wise-dump-<today's-date>.tar.gz=
+     #+END_EXAMPLE
+  8. Copy the =iiith-date-wise-dump-<today's-date>.tar.gz=
+     to pen drive or to any other external storage device.
+  9. In the current release, this file has to be sent to
+     VLEAD for post processing.  The way [[http://community.virtual-labs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#manual_sharing][proposed]] is to
+     copy the file to a google drive and share the link
+     with =engg@vlabs.ac.in=.
+  10. In this demonstration, the file is =rsynced= to the
+      host machine. 
+
+* Push college cloud workshop analytics into database
+  =VLEAD= implemented a python script which pushes college
+  cloud workshop analytics into the database using REST
+  APIs
+
+    1. Swtich back to WIFI connection with SSID =VLEAD=
+    2. Clone the repository
+       #+BEGIN_EXAMPLE
+       git clone https://gitlab.com/vlead-systems/college-cloud.git
+       #+END_EXAMPLE
+    3. Change directory to =collge-cloud=
+       #+BEGIN_EXAMPLE
+       cd college-cloud
+       #+END_EXAMPLE
+    4. Build the sources
+       #+BEGIN_EXAMPLE
+       make readtheorg=true
+       #+END_EXAMPLE
+    5. Change directory to =implementation=
+       #+BEGIN_EXAMPLE
+       cd build/code/runtime/implementation
+       #+END_EXAMPLE
+    6. Unset the =proxy=
+       #+BEGIN_EXAMPLE
+       unset http_proxy && unset https_proxy
+       #+END_EXAMPLE
+
+    7. Configure the =FEEDBACK_URL= at =post_process_config.py= where
+       all the college cloud analytics will be pushed into
+      #+BEGIN_EXAMPLE
+      FEEDBACK_URL = "http://feedback.base4.vlabs.ac.in"
+      #+END_EXAMPLE
+
+    8. Create python virtual environment, install =requests=
+       package and activate it. 
+
+    9. Run the script to push the analytics into the database
+       #+BEGIN_EXAMPLE
+       python post_process.py <path-to-the-downloaded-tar-file>
+       #+END_EXAMPLE
+       
+* View college cloud analytics
+
+   1. Disconnect from WIFI with SSID =college-cloud= and
+      connect to WIFI with SSID =VLEAD=.
+
+   2. Login into the =base4= machine, use vlead ldap user
+      id.
+      #+BEGIN_EXAMPLE
+       ssh user@10.4.12.24
+      #+END_EXAMPLE
+   3. Login into the =elasticsearch database= container.
+      The container ID of this machine is 15.
+      #+BEGIN_EXAMPLE
+       sudo su -
+       su -
+       vzctl enter 15
+      #+END_EXAMPLE
+   4. Fetch all available collections in =elasticseach databse= using
+      #+BEGIN_EXAMPLE
+       curl -XGET http://localhost:9200/_cat/indices
+      #+END_EXAMPLE
+   5. The above step lists all the collections.  The
+      collection =iiith_70:54:d2:7b:3d:36= is what we are
+      interested in.  This is the collection pertaining to
+      the college cloud that is used in this demonstration.
+       
+   6. Copy the collection name =iiith_70:54:d2:7b:3d:36=
+      and execute the below command to know the feedback
+      and usage counts
+      #+BEGIN_EXAMPLE
+       curl -XGET http://localhost:9200/iiith_70:54:d2:7b:3d:36/feedback/_count?pretty
+       curl -XGET http://localhost:9200/iiith_70:54:d2:7b:3d:36/usages/_count?pretty
+      #+END_EXAMPLE
+
+   7. Read the =count= key in the json output.
+
