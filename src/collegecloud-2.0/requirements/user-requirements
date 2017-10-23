@@ -1,9 +1,9 @@
 Following are the College Cloud 2.0 Requirements. These requirements are based
 on the prior user feedback and observations during the installs
 
-1. College Requirements
+1. Lab usage Requirements by Colleges
    a) College Cloud should be available in a Bootable Pendrive (32 GB), USB 3.0+
-   b) Collges are expected to have machine (4 GB RAM with i3/i5 processor), 
+   b) Colleges are expected to have machine (4 GB RAM with i3/i5 processor), 
       this should be the constraint and the lab set-up should be based on this
    c) The set-up should support a minimum of 60 users/students
    d) The set-up should be available as a downloadable with a help document
