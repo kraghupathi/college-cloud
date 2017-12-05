@@ -79,62 +79,66 @@
  
 *** On 32GB 
 
-| Users | Memoy/Output |  Java | Flash | JavaScript |
-|-------+--------------+-------+-------+------------|
-|    50 | Max RAM      | 29708 | 29871 |            |   
-|       | Min RAM      | 29651 | 29841 |            |   
-|       | Siege        |       |       |            |   
-|-------+--------------+-------+-------+------------|
-|       | Min RAM      | 29602 | 29793 |            |   
-|       | Siege        |       |       |            |   
-|-------+--------------+-------+-------+------------|
-|   200 | Max RAM      | 29614 | 29827 |            |   
-|       | Min RAM      | 29498 | 29778 |            |   
-|       | Siege        |       |       |            |   
-|-------+--------------+-------+-------+------------|
-|   300 | Max RAM      | 29271 | 29793 |            |   
-|       | Min RAM      | 29127 | 29787 |            |   
-|       | Siege        |       |       |            |   
-|-------+--------------+-------+-------+------------|
-
-- Siege output data of the above mentioned Java lab can be found at [32gb][raw-data]] 
+| Users | Memoy/Output |     Java |    Flash | JavaScript |
+|-------+--------------+----------+----------+------------|
+|    50 | Max RAM      |    29708 |    29871 |            |
+|       | Min RAM      |    29651 |    29841 |            |
+|       | Siege        | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/flash/siege-50-users-mas.txt][Raw-Data]] | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-50-users-physical-chemsitry.txt][Raw-Data]] |            |
+|-------+--------------+----------+----------+------------|
+|   100 | Max RAM      |    29661 |    29868 |            |
+|       | Min RAM      |    29602 |    29793 |            |
+|       | Siege        | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-100-users-cse14.txt][Raw-Data]] | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-100-users-physical-chemsitry.txt][Raw-Data]] |            |
+|-------+--------------+----------+----------+------------|
+|   200 | Max RAM      |    29614 |    29827 |            |
+|       | Min RAM      |    29498 |    29778 |            |
+|       | Siege        | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-200-users-cse14.txt][Raw-Data]] | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-200-users-physical-chemsitry.txt][Raw-Data]] |            |
+|-------+--------------+----------+----------+------------|
+|   300 | Max RAM      |    29271 |    29793 |            |
+|       | Min RAM      |    29127 |    29787 |            |
+|       | Siege        | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-300-users-cse14.txt][Raw-Data]] | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-300-users-physical-chemsitry.txt][Raw-Data]] |            |
+|-------+--------------+----------+----------+------------|
 
 *** On 16GB
  
-| Users | Memory/Output |  Java | Flash | JavaScript |
-|-------+---------------+-------+-------+------------|
-|    50 | Max RAM       | 13843 | 13501 |      13420 |
-|       | Min RAM       | 13787 | 13464 |      13332 |
-|-------+---------------+-------+-------+------------|
-|   100 | Max RAM       | 13793 | 13493 |      13359 |
-|       | Min RAM       | 13716 | 13453 |      13290 |
-|       | Siege         |       |       |            |
-|-------+---------------+-------+-------+------------|
-|   200 | Max RAM       | 13728 | 13488 |      13344 |
-|       | Min RAM       | 13575 | 13399 |      13260 |
-|       | Siege         |       |       |            |
-|-------+---------------+-------+-------+------------|
-|   300 | Max RAM       | 13605 | 13427 |      13288 |
-|       | Min RAM       | 13493 | 13402 |      13230 |
-|       | Siege         |[[][]] |       |            |
-|-------+---------------+-------+-------+------------|
+| Users | Memory/Output |     Java | Flash | JavaScript |
+|-------+---------------+----------+-------+------------|
+|    50 | Max RAM       |    13843 | 13501 |      13420 |
+|       | Min RAM       |    13787 | 13464 |      13332 |
+|       | Siege         | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-50-users-vlsi.txt][Raw-Data]] |       |            |
+|-------+---------------+----------+-------+------------|
+|   100 | Max RAM       |    13793 | 13493 |      13359 |
+|       | Min RAM       |    13716 | 13453 |      13290 |
+|       | Siege         | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-100-users-vlsi.txt][Raw-Data]] |       |            |
+|-------+---------------+----------+-------+------------|
+|   200 | Max RAM       |    13728 | 13488 |      13344 |
+|       | Min RAM       |    13575 | 13399 |      13260 |
+|       | Siege         | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-200-users-vlsi.txt][Raw-Data]] |       |            |
+|-------+---------------+----------+-------+------------|
+|   300 | Max RAM       |    13605 | 13427 |      13288 |
+|       | Min RAM       |    13493 | 13402 |      13230 |
+|       | Siege         | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-300-users-vlsi.txt][Raw-Data]] |       |            |
+|-------+---------------+----------+-------+------------|
 
 *** On 8GB
 
-| Users | RAM | Java | Flash | JavaScript |
-|-------+-----+------+-------+------------|
-|    50 | Max |      |       |            |
-|       | Min |      |       |            |
-|-------+-----+------+-------+------------|
-|   100 | Max |      |       |            |
-|       | Min |      |       |            |
-|-------+-----+------+-------+------------|
-|   200 | Max |      |       |            |
-|       | Min |      |       |            |
-|-------+-----+------+-------+------------|
-|   300 | Max |      |       |            |
-|       | Min |      |       |            |
-|-------+-----+------+-------+------------|
+| Users | Memory/Output | Java | Flash | JavaScript |
+|-------+---------------+------+-------+------------|
+|    50 | Max RAM       | 5723 |  5220 |       5419 |
+|       | Min RAM       | 5652 |  5193 |       5338 |
+|       | Siege         |      |       |            |
+|-------+---------------+------+-------+------------|
+|   100 | Max RAM       | 5669 |  5247 |       5370 |
+|       | Min RAM       | 5584 |  5214 |       5303 |
+|       | Siege         |      |       |            |
+|-------+---------------+------+-------+------------|
+|   200 | Max RAM       | 5597 |  5246 |       5329 |
+|       | Min RAM       | 5502 |  5196 |       5235 |
+|       | Siege         |      |       |            |
+|-------+---------------+------+-------+------------|
+|   300 | Max RAM       | 5553 |  5239 |       5266 |
+|       | Min RAM       | 5398 |  5206 |       5177 |
+|       | Siege         |      |       |            |
+|-------+---------------+------+-------+------------|
 
 
    - Testing of javascript lab is failed with the below error

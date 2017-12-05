@@ -1,0 +1,29 @@
+kraghupathi:javascript$ siege -c 300 -r 1 -t 5M http://cse02-iiith.vlabs.ac.in/exp4/simulation.html
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+
+================================================================
+WARNING: The number of users is capped at 255.  To increase this
+         limit, search your .siegerc file for 'limit' and change
+         its value. Make sure you read the instructions there...
+================================================================
+** SIEGE 4.0.2
+** Preparing 255 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		       99757 hits
+Availability:		      100.00 %
+Elapsed time:		      299.44 secs
+Data transferred:	      938.04 MB
+Response time:		        0.73 secs
+Transaction rate:	      333.15 trans/sec
+Throughput:		        3.13 MB/sec
+Concurrency:		      243.86
+Successful transactions:       37615
+Failed transactions:	           0
+Longest transaction:	       65.89
+Shortest transaction:	        0.04
+ 
+Segmentation fault
+

@@ -1,0 +1,23 @@
+kraghupathi:flash$ siege -c 100 -r 1 -t 5M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 100 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		        9364 hits
+Availability:		      100.00 %
+Elapsed time:		      299.55 secs
+Data transferred:	     1475.31 MB
+Response time:		        2.93 secs
+Transaction rate:	       31.26 trans/sec
+Throughput:		        4.93 MB/sec
+Concurrency:		       91.71
+Successful transactions:        9364
+Failed transactions:	           0
+Longest transaction:	        7.94
+Shortest transaction:	        0.42
+ 
+*** Error in `siege': munmap_chunk(): invalid pointer: 0x000055fc769ab490 ***
+
