@@ -1,0 +1,23 @@
+kraghupathi:javascript$ siege -c 100 -r 1 -t 5M http://cse02-iiith.vlabs.ac.in/exp4/simulation.html
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 100 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		      100149 hits
+Availability:		      100.00 %
+Elapsed time:		      299.66 secs
+Data transferred:	      939.23 MB
+Response time:		        0.27 secs
+Transaction rate:	      334.21 trans/sec
+Throughput:		        3.13 MB/sec
+Concurrency:		       89.47
+Successful transactions:       37664
+Failed transactions:	           0
+Longest transaction:	        1.93
+Shortest transaction:	        0.02
+ 
+*** Error in `siege': munmap_chunk(): invalid pointer: 0x00005590cc688490 ***
+

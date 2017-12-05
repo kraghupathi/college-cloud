@@ -1,0 +1,23 @@
+kraghupathi:flash$ siege -c 100 -r 1 -t 5M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 100 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		        8897 hits
+Availability:		      100.00 %
+Elapsed time:		      299.42 secs
+Data transferred:	     1401.73 MB
+Response time:		        3.10 secs
+Transaction rate:	       29.71 trans/sec
+Throughput:		        4.68 MB/sec
+Concurrency:		       92.12
+Successful transactions:        8897
+Failed transactions:	           0
+Longest transaction:	        8.08
+Shortest transaction:	        0.40
+ 
+Segmentation fault
+

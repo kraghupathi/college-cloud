@@ -1,0 +1,23 @@
+kraghupathi:flash$ siege -c 200 -r 1 -t 5M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 200 concurrent users for battle.
+The server is now under siege...[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+Lifting the server siege...
+Transactions:		        8135 hits
+Availability:		       99.84 %
+Elapsed time:		      299.33 secs
+Data transferred:	     1281.68 MB
+Response time:		        6.77 secs
+Transaction rate:	       27.18 trans/sec
+Throughput:		        4.28 MB/sec
+Concurrency:		      184.08
+Successful transactions:        8135
+Failed transactions:	          13
+Longest transaction:	       73.22
+Shortest transaction:	        0.33
+ 
+*** Error in `siege': munmap_chunk(): invalid pointer: 0x0000558f79966490 ***
+

@@ -1,0 +1,143 @@
+#+TITLE: Virtual Labs College Cloud Performance testing 
+#+DATE: [2017-12-04]
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ../org-templates/level-1.org
+#+options: ^:nil
+#+LATEX: Literal LaTeX code for export
+
+
+* Introduction
+  This document is a Test Suite for multiple test cases with clear
+  objectives and inferences defined for each test performed.
+
+* Test Suite : CPU Testing 
+** System Configuration for the below testcases
+*** Server machine configuration
+    - CPU op-mode(s) - 64-bit
+    - CPU(s)         - 8
+    - Model name     - Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+
+*** Client machine configuration     
+    - CPU op-mode(s) - 64-bit 
+    - CPU(s)         - 4
+    - Model name     - Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+       
+* Test cases 
+
+** PTEST-FULLCC-001 : TEST01 - vmstat 
+*** Objective(s)
+    To identify the following stats - 
+    + Client Laptop
+    + CPU run queues
+    + Swap in/out
+    + Wait time for IO 
+    + Memory (RAM) utilization
+ 
+*** Description
+    vmstat - Virtual memory stats is a command to get summary
+    information on Memory, Processess, CPU, Paging etc.
+    + Boot CC normally
+    + Use the command given below to get statistics -
+      #+BEGIN_SRC command
+      vmstat 1 300 -n -w -S M 
+      #+END_SRC
+    + This command runs for 300 times and returns output on screen
+      every one second.
+    + *-S M* is to get output in MB
+
+** Labs used in the testing
+   - Below are the labs used in testing
+     1. VLSI - Java lab
+     2. Molecular Absorption Spectroscopy - JavaScript Lab
+     3. Physical Chemistry - Flash Lab	
+   - Boot CC normally and start the containers of the above
+     mentioned labs, using the below command
+     #+BEGIN_SRC
+     vzctl start <CTID>
+     #+END_SRC
+   - Follow the below steps for performing the testing on Java lab
+*** Run 1: vmstat - Simple load( 50 concurrent user requests on one lab for 5 minutes)
+    + Use the command given below on CC machine to get statistics -
+      #+BEGIN_SRC command
+      vmstat 1 300 -n -w -S M 
+      #+END_SRC
+    + This command runs for 300 times and returns output on screen
+      every one second.
+    + *-S M* is to get output in MB
+    + Now, put load on the lab using *siege* command. Run the below
+      command from different machine which is connected to CC through
+      LAN
+      #+BEGIN_SRC 
+      siege -c 50 -r 1 -t 5M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp2/exp2.html
+      #+END_SRC
+    + Output of the above command can be found at [[Raw-Data/32GB/java-vlsi/siege-50-users-cse14.txt][raw-Data]].
+         
+** Memory used for the above mentioned labs 
+   - Below table has the data of memory used for the different labs during the
+     testing on differnet RAM's.
+ 
+*** On 32GB 
+
+| Users | Memoy/Output |  Java | Flash | JavaScript |
+|-------+--------------+-------+-------+------------|
+|    50 | Max RAM      | 29708 | 29871 |            |   
+|       | Min RAM      | 29651 | 29841 |            |   
+|       | Siege        |       |       |            |   
+|-------+--------------+-------+-------+------------|
+|       | Min RAM      | 29602 | 29793 |            |   
+|       | Siege        |       |       |            |   
+|-------+--------------+-------+-------+------------|
+|   200 | Max RAM      | 29614 | 29827 |            |   
+|       | Min RAM      | 29498 | 29778 |            |   
+|       | Siege        |       |       |            |   
+|-------+--------------+-------+-------+------------|
+|   300 | Max RAM      | 29271 | 29793 |            |   
+|       | Min RAM      | 29127 | 29787 |            |   
+|       | Siege        |       |       |            |   
+|-------+--------------+-------+-------+------------|
+
+- Siege output data of the above mentioned Java lab can be found at [32gb][raw-data]] 
+
+*** On 16GB
+ 
+| Users | Memory/Output |  Java | Flash | JavaScript |
+|-------+---------------+-------+-------+------------|
+|    50 | Max RAM       | 13843 | 13501 |      13420 |
+|       | Min RAM       | 13787 | 13464 |      13332 |
+|-------+---------------+-------+-------+------------|
+|   100 | Max RAM       | 13793 | 13493 |      13359 |
+|       | Min RAM       | 13716 | 13453 |      13290 |
+|       | Siege         |       |       |            |
+|-------+---------------+-------+-------+------------|
+|   200 | Max RAM       | 13728 | 13488 |      13344 |
+|       | Min RAM       | 13575 | 13399 |      13260 |
+|       | Siege         |       |       |            |
+|-------+---------------+-------+-------+------------|
+|   300 | Max RAM       | 13605 | 13427 |      13288 |
+|       | Min RAM       | 13493 | 13402 |      13230 |
+|       | Siege         |[[][]] |       |            |
+|-------+---------------+-------+-------+------------|
+
+*** On 8GB
+
+| Users | RAM | Java | Flash | JavaScript |
+|-------+-----+------+-------+------------|
+|    50 | Max |      |       |            |
+|       | Min |      |       |            |
+|-------+-----+------+-------+------------|
+|   100 | Max |      |       |            |
+|       | Min |      |       |            |
+|-------+-----+------+-------+------------|
+|   200 | Max |      |       |            |
+|       | Min |      |       |            |
+|-------+-----+------+-------+------------|
+|   300 | Max |      |       |            |
+|       | Min |      |       |            |
+|-------+-----+------+-------+------------|
+
+
+   - Testing of javascript lab is failed with the below error
+     #+BEGIN_EXAMPLE
+     *** Error in `siege': munmap_chunk(): invalid pointer: 0x0000558edc963490 ***
+     #+END_EXAMPLE

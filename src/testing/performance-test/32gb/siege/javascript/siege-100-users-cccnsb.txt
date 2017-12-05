@@ -1,0 +1,24 @@
+kraghupathi:performance-tests$ siege -c 50 -r 1 -t 5M http://mas-iiith.vlabs.ac.in/exp1/expt1/principle.html
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 50 concurrent users for battle.
+The server is now under siege...[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+
+Lifting the server siege...
+Transactions:		           0 hits
+Availability:		        0.00 %
+Elapsed time:		      299.71 secs
+Data transferred:	        0.00 MB
+Response time:		        0.00 secs
+Transaction rate:	        0.00 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        0.00
+Successful transactions:           0
+Failed transactions:	          17
+Longest transaction:	        0.00
+Shortest transaction:	        0.00
+ 
+*** Error in `siege': munmap_chunk(): invalid pointer: 0x0000558edc963490 ***
+
