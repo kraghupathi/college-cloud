@@ -15,10 +15,9 @@
 ** System Configuration for the below testcases
 *** Server machine configuration
     
-    - We use the following configuration on server machine
-      + CPU op-mode(s) - 64-bit
-      + No.of courses  - 8
-      + Processor      - Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+    - Use the following configuration on server machine
+      + Number of cores  - 8
+      + Processor        - Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
 
     - Defalut containers running on server :
       + feedback.edx.vlabs.ac.in
@@ -30,17 +29,17 @@
       + reverseproxy.edx.vlabs.ac.in
 
 *** Client machine configuration     
-    - We use the following configuration on client machine
-      + CPU op-mode(s) - 64-bit 
-      + No. of courses - 4
-      + Processor      - Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
-      + RAM            - 16GB   
+    - Use the following configuration on client machine
+      + Number of cores - 4
+      + Processor       - Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+      + RAM             - 16GB   
     
     - Installation of siege
       + Siege - It was designed for developers and administrators to
         measure the performance of their applications under load. It
         can send a configurable number of simultaneous requests to a
         server. Those requests place that server ¡°under siege.¡±
+      + Siege is used to get the output of the performance test.
       + Install siege using the below command:
 	#+BEGIN_SRC
 	sudo apt-get install siege
@@ -59,7 +58,7 @@
 *** Description
     vmstat - Virtual memory stats is a command to get summary
     information on Memory, Processess, CPU, Paging etc.
-    + Boot CC normally
+    + Boot college cloud normally.
     + Use the command given below to get statistics -
       #+BEGIN_SRC command
       vmstat 1 300 -n -w -S M 
@@ -88,8 +87,8 @@
     + Output of the above command can be found at [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-50-users-cse14.txt][Raw-Data]].
 
     + Now, put load on the lab using *siege* command. Run the below
-      command from different machine which is connected to CC through
-      LAN
+      command from different machine which is connected to colloege
+      cloud through LAN
       #+BEGIN_SRC 
       siege -c 50 -r 1 -t 5M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp2/exp2.html
       #+END_SRC
@@ -99,9 +98,9 @@
    - The following table has the data/output of performance test for
      the different labs with multiple users during the testing on
      differnet RAM's.
-   - Free RAM in the below data defines, the available memory
-     after the usage of lab performed by no.of users.
-
+   - Free RAM in the below data defines, the available memory after
+     the load of an experiment performed by the multiple users.
+   - 
 *** On 32GB 
 
 | Users | Memoy/Output   | VLSI(Java) | Physical Chemistry | Molecular Absorption      |
