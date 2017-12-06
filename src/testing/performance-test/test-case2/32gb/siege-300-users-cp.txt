@@ -1,0 +1,2029 @@
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+[[1;33merror[0m] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 120 seconds
+** SIEGE 4.0.2
+** Preparing 255 concurrent users for battle.
+The server is now under siege...
+================================================================
+WARNING: The number of users is capped at 255.  To increase this
+         limit, search your .siegerc file for 'limit' and change
+         its value. Make sure you read the instructions there...
+================================================================
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: cse02-iiith.vlabs.ac.in
+
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+[[1;33merror[0m] Host not found: fonts.googleapis.com
+
+[[1;33merror[0m] descriptor table full sock.c:133: Too many open files
+libgcc_s.so.1 must be installed for pthread_cancel to work
+Aborted

@@ -1,0 +1,25 @@
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+[[1;33merror[0m] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 120 seconds
+** SIEGE 4.0.2
+** Preparing 200 concurrent users for battle.
+The server is now under siege...[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+
+Lifting the server siege...
+Transactions:		        8307 hits
+Availability:		       99.95 %
+Elapsed time:		      119.98 secs
+Data transferred:	     1308.77 MB
+Response time:		        2.54 secs
+Transaction rate:	       69.24 trans/sec
+Throughput:		       10.91 MB/sec
+Concurrency:		      176.05
+Successful transactions:        8307
+Failed transactions:	           4
+Longest transaction:	       59.99
+Shortest transaction:	        0.13
+ 
+Aborted
