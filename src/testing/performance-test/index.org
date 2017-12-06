@@ -1,0 +1,160 @@
+#+TITLE: Virtual Labs College Cloud Performance testing 
+#+DATE: [2017-12-04]
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ../org-templates/level-1.org
+#+options: ^:nil
+#+LATEX: Literal LaTeX code for export
+
+
+* Introduction
+  This document is a Test Suite for multiple test cases with clear
+  objectives and inferences defined for each test performed.
+
+* Test Suite : CPU Testing 
+** System Configuration for the below testcases
+*** Server machine configuration
+    
+    - Use the following configuration on server machine
+      + Number of cores  - 8
+      + Processor        - Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+
+    - Defalut containers running on server :
+      + feedback.edx.vlabs.ac.in
+      + analytics-api.edx.vlabs.ac.in
+      + vlabs-analytics.edx.vlabs.ac.in
+      + router.edx.vlabs.ac.in
+      + privatedns.edx.vlabs.ac.in
+      + publicdns.edx.vlabs.ac.in
+      + reverseproxy.edx.vlabs.ac.in
+
+*** Client machine configuration     
+    - Use the following configuration on client machine
+      + Number of cores - 4
+      + Processor       - Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+      + RAM             - 16GB   
+    
+    - Installation of siege
+      + Siege - It was designed for developers and administrators to
+        measure the performance of their applications under load. It
+        can send a configurable number of simultaneous requests to a
+        server. Those requests place that server ¡°under siege.¡±
+      + Siege is used to get the output of the performance test.
+      + Install siege using the below command:
+	#+BEGIN_SRC
+	sudo apt-get install siege
+	#+END_SRC
+* Test cases 
+
+** PTEST-FULLCC-001 : TEST01 - vmstat 
+*** Objective(s)
+    To identify the following stats - 
+    + CPU Utilizaton
+    + CPU run queues
+    + Swap in/out
+    + Wait time for IO 
+    + Memory (RAM) utilization
+ 
+*** Description
+    vmstat - Virtual memory stats is a command to get summary
+    information on Memory, Processess, CPU, Paging etc.
+    + Boot college cloud normally.
+    + Use the command given below to get statistics -
+      #+BEGIN_SRC command
+      vmstat 1 300 -n -w -S M 
+      #+END_SRC
+    + This command runs for 300 times and returns output on screen
+      every one second.
+    + *-S M* is to get output in MB
+      
+** Labs used in the testing
+   - Only 6 containers of the labs are started on colloege cloud,
+     among the six we used below labs for performance testing.
+     1. VLSI - Java lab
+     2. Molecular Absorption Spectroscopy - JavaScript Lab
+     3. Physical Chemistry - Flash 
+   - Follow the below steps for performing the testing on the above
+     mentioned labs.
+
+*** Run 1: vmstat - Simple load( 50 concurrent user requests on one lab for 5 minutes)
+    + Use the command given below on CC machine to get statistics -
+      #+BEGIN_SRC command
+      vmstat 1 300 -n -w -S M 
+      #+END_SRC
+    + *-S M* is to get output in MB
+    + This command runs for 300 times and returns output on screen
+      every one second.
+    + Output of the above command can be found at [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-50-users-cse14.txt][Raw-Data]].
+
+    + Now, put load on the lab using *siege* command. Run the below
+      command from different machine which is connected to colloege
+      cloud through LAN
+      #+BEGIN_SRC 
+      siege -c 50 -r 1 -t 5M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp2/exp2.html
+      #+END_SRC
+    + Output of the above command can be found at [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/java/siege-50-users-cse14.txt][Raw-Data]].
+         
+** Memory used for the above mentioned labs 
+   - The following table has the data/output of performance test for
+     the different labs with multiple users during the testing on
+     differnet RAM's.
+   - Free RAM in the below data defines, the available memory after
+     the load of an experiment performed by the multiple users.
+   - 
+*** On 32GB 
+
+| Users | Memoy/Output   | VLSI(Java) | Physical Chemistry | Molecular Absorption      |
+|       |                | Lab        | (Flash) Lab        | Spectroscopy (JavaScript) |
+|       |                |            |                    | Lab                       |
+|-------+----------------+------------+--------------------+---------------------------|
+|    50 | Free RAM in MB | 29708      | 29871              | 29347                     |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/flash/siege-50-users-mas.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-50-users-physical-chemsitry.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/javascript/siege-50-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   100 | Free RAM in MB | 29661      | 29868              | 29220                     |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-100-users-cse14.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-100-users-physical-chemsitry.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/javascript/siege-100-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   200 | Free RAM in MB | 29614      | 29827              | 29161                     |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-200-users-cse14.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-200-users-physical-chemsitry.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/javascript/siege-200-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   300 | Free RAM in MB | 29271      | 29793              | 29116                     |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/java/vmstat-300-users-cse14.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/vmstat/flash/vmstat-300-users-physical-chemsitry.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/32gb/siege/javascript/siege-300-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+
+*** On 16GB
+ 
+| Users | Memory/Output  | VLSI(Java) | Physical Chemistry | Molecular Absorption     |
+|       |                | Lab        | (Flash) Lab        | Spectroscopy(JavaScript) |
+|       |                |            |                    | Lab                      |
+|-------+----------------+------------+--------------------+--------------------------|
+|    50 | Free RAM in MB | 13843      | 13501              | 13420                    |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-50-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/flash/siege-50-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/javascript/siege-50-users-cp.txt][Raw-Data]]                 |
+|-------+----------------+------------+--------------------+--------------------------|
+|   100 | Free RAM in MB | 13793      | 13493              | 13359                    |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-100-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/flash/siege-100-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/javascript/siege-100-users-cp.txt][Raw_Data]]                 |
+|-------+----------------+------------+--------------------+--------------------------|
+|   200 | Free RAM in MB | 13728      | 13488              | 13344                    |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-200-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/flash/siege-200-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/javascript/siege-200-users-cp.txt][Raw-Data]]                 |
+|-------+----------------+------------+--------------------+--------------------------|
+|   300 | Free RAM in MB | 13605      | 13427              | 13288                    |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/java/siege-300-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/flash/siege-300-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/16gb/siege/javascript/siege-300-users-cp.txt][Raw-Data]]                 |
+|-------+----------------+------------+--------------------+--------------------------|
+
+*** On 8GB
+
+| Users | Memory/Output  | VLSI(Java) | Physical Chmesitry | Molecular Absorption      |
+|       |                | Lab        | (Flash) Lab        | Spectroscopy (JavaScript) |
+|       |                |            |                    | Lab                       |
+|-------+----------------+------------+--------------------+---------------------------|
+|    50 | Free RAM in MB | 5723       | 5220               | 5419                      |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/java/siege-50-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/flash/siege-50-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/javascript/siege-50-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   100 | Free RAM in MB | 5669       | 5247               | 5370                      |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/java/siege-100-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/flash/siege-100-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/javascript/siege-100-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   200 | Free RAM in MB | 5597       | 5246               | 5329                      |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/java/siege-200-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/flash/siege-200-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/javascript/siege-200-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+|   300 | Free RAM in MB | 5553       | 5239               | 5266                      |
+|       | Siege          | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/java/siege-300-users-vlsi.txt][Raw-Data]]   | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/flash/siege-300-users-pc.txt][Raw-Data]]           | [[https://gitlab.com/vlead-systems/college-cloud/blob/master/src/testing/performance-test/8gb/siege/javascript/siege-300-users-cp.txt][Raw-Data]]                  |
+|-------+----------------+------------+--------------------+---------------------------|
+

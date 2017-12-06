@@ -1,0 +1,23 @@
+kraghupathi:javascript$ siege -c 200 -r 1 -t 5M http://cse02-iiith.vlabs.ac.in/exp4/simulation.html
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 200 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		       95249 hits
+Availability:		      100.00 %
+Elapsed time:		      299.70 secs
+Data transferred:	      895.15 MB
+Response time:		        0.60 secs
+Transaction rate:	      317.81 trans/sec
+Throughput:		        2.99 MB/sec
+Concurrency:		      189.71
+Successful transactions:       35901
+Failed transactions:	           0
+Longest transaction:	       66.61
+Shortest transaction:	        0.11
+ 
+Segmentation fault
+

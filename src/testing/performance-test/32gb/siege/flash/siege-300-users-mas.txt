@@ -1,0 +1,22 @@
+
+Lifting the server siege...      done.
+
+Transactions:		           0 hits
+Availability:		        0.00 %
+Elapsed time:		      299.93 secs
+Data transferred:	        0.00 MB
+Response time:		        0.00 secs
+Transaction rate:	        0.00 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        0.00
+Successful transactions:           0
+Failed transactions:	         848
+Longest transaction:	        0.00
+Shortest transaction:	        0.00
+ 
+FILE: /var/log/siege.log
+You can disable this annoying message by editing
+the .siegerc file in your home directory; change
+the directive 'show-logfile' to false.
+[error] unable to create log file: Permission denied
+

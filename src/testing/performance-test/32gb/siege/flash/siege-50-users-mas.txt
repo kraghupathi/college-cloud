@@ -1,0 +1,30 @@
+virtual-labs@virtuallabs-VirtualBox:~$ siege -c 50 -r 1 -t 5M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf
+[error] CONFIG conflict: selected time and repetition based testing: No such file or directory
+defaulting to time-based testing: 300 seconds
+** SIEGE 3.0.5
+** Preparing 50 concurrent users for battle.
+The server is now under siege...[alert] socket: -1694587136 select timed out: Connection timed out
+
+[error] socket: -1954760960 connection timed out.: Connection timed out
+
+Lifting the server siege...      done.
+
+Transactions:		        3991 hits
+Availability:		       98.18 %
+Elapsed time:		      299.36 secs
+Data transferred:	      628.79 MB
+Response time:		        0.86 secs
+Transaction rate:	       13.33 trans/sec
+Throughput:		        2.10 MB/sec
+Concurrency:		       11.50
+Successful transactions:        3991
+Failed transactions:	          74
+Longest transaction:	       34.81
+Shortest transaction:	        0.07
+ 
+FILE: /var/log/siege.log
+You can disable this annoying message by editing
+the .siegerc file in your home directory; change
+the directive 'show-logfile' to false.
+[error] unable to create log file: Permission denied
+

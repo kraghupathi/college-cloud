@@ -1,0 +1,34 @@
+kraghupathi:flash$ siege -c 200 -r 1 -t 5M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+[error] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 300 seconds
+** SIEGE 4.0.2
+** Preparing 200 concurrent users for battle.
+The server is now under siege...[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[error] socket: -397056256 connection timed out.: Connection timed out
+[error] socket: 391857920 connection timed out.: Connection timed out
+[error] socket: 249181952 connection timed out.: Connection timed out
+
+Lifting the server siege...
+Transactions:		        9361 hits
+Availability:		       99.88 %
+Elapsed time:		      299.57 secs
+Data transferred:	     1474.83 MB
+Response time:		        5.89 secs
+Transaction rate:	       31.25 trans/sec
+Throughput:		        4.92 MB/sec
+Concurrency:		      184.13
+Successful transactions:        9361
+Failed transactions:	          11
+Longest transaction:	       71.83
+Shortest transaction:	        0.37
+ 
+Segmentation fault
+
