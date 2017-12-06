@@ -143,26 +143,26 @@ sleep 10s
 
 *** Test Case -002: Performance stats when  16GB RAM on College Cloud Server
 
-    |-------+-----------------+------------+--------------------+---------------------------|
-    | Users | Memoy/Output    | VLSI(Java) | Physical Chemistry | Molecular Absorption      |
-    |       |                 | Lab        | (Flash) Lab        | Spectroscopy (JavaScript) |
-    |       |                 |            |                    | Lab                       |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   100 | Free RAM in MB  | 29661      | 29868              | 29220                     |
-    |       | CPU utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/16gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-100-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/16gb/siege-100-users-vlsi.tx][raw-data]]   | [[./test-case2/16gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-100-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   200 | Free RAM in MB  |            | 29827              | 29161                     |
-    |       | CPU utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/16gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-200-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/16gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-200-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   300 | Free RAM in MB  | 29271      | 29793              | 29116                     |
-    |       | CPU utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/16gb/vmstat-300-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-300-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/16gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-300-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
+    |-------+-----------------+------------+--------------------+----------------------|
+    | Users | Memoy/Output    | VLSI(Java) | Physical Chemistry | Computer Programming |
+    |       |                 | Lab        | (Flash) Lab        | (JavaScript)         |
+    |       |                 |            |                    | Lab                  |
+    |-------+-----------------+------------+--------------------+----------------------|
+    |   100 | Free RAM in MB  | 8505       | 8734               | 8579                 |
+    |       | CPU utilization | 13         | 16                 | 20                   |
+    |       | vmstat          | [[./test-case2/16gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-100-users-cp.txt][raw-data]]             |
+    |       | siege           | [[./test-case2/16gb/siege-100-users-vlsi.tx][raw-data]]   | [[./test-case2/16gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-100-users-cp.txt][raw-data]]             |
+    |-------+-----------------+------------+--------------------+----------------------|
+    |   200 | Free RAM in MB  | 8526       | 8712               | 8578                 |
+    |       | CPU utilization | 12         | 14                 | 7                    |
+    |       | vmstat          | [[./test-case2/16gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-200-users-cp.txt][raw-data]]             |
+    |       | siege           | [[./test-case2/16gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-200-users-cp.txt][raw-data]]             |
+    |-------+-----------------+------------+--------------------+----------------------|
+    |   300 | Free RAM in MB  | 8329       | 8173               | 8527                 |
+    |       | CPU utilization | 10         | 14                 | 17                   |
+    |       | vmstat          | [[./test-case2/16gb/vmstat-300-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-300-users-cp.txt][raw-data]]             |
+    |       | siege           | [[./test-case2/16gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-300-users-cp.txt][raw-data]]             |
+    |-------+-----------------+------------+--------------------+----------------------|
 
 *** Test Case- 003 Performance stats when 8GB RAM on College Cloud Server
     |-------+-----------------+------------+--------------------+---------------------------|
