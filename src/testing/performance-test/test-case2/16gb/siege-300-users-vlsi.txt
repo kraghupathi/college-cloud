@@ -1,0 +1,21 @@
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+[[1;33merror[0m] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 120 seconds
+** SIEGE 4.0.2
+** Preparing 255 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
+Transactions:		      118836 hits
+Availability:		      100.00 %
+Elapsed time:		      119.02 secs
+Data transferred:	       66.53 MB
+Response time:		        0.01 secs
+Transaction rate:	      998.45 trans/sec
+Throughput:		        0.56 MB/sec
+Concurrency:		        5.26
+Successful transactions:      118836
+Failed transactions:	           0
+Longest transaction:	        1.08
+Shortest transaction:	        0.00
+ 
+Segmentation fault

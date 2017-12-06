@@ -1,0 +1,75 @@
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+[[1;33merror[0m] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 120 seconds
+** SIEGE 4.0.2
+** Preparing 255 concurrent users for battle.
+The server is now under siege...
+================================================================
+WARNING: The number of users is capped at 255.  To increase this
+         limit, search your .siegerc file for 'limit' and change
+         its value. Make sure you read the instructions there...
+================================================================
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
+
+Lifting the server siege...
+Transactions:		        8129 hits
+Availability:		       99.41 %
+Elapsed time:		      119.98 secs
+Data transferred:	     1280.73 MB
+Response time:		        2.77 secs
+Transaction rate:	       67.75 trans/sec
+Throughput:		       10.67 MB/sec
+Concurrency:		      187.43
+Successful transactions:        8129
+Failed transactions:	          48
+Longest transaction:	       58.29
+Shortest transaction:	        0.10
+ 
+Aborted

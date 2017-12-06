@@ -1,0 +1,7 @@
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+[[1;33merror[0m] CONFIG conflict: selected time and repetition based testing
+defaulting to time-based testing: 120 seconds
+** SIEGE 4.0.2
+** Preparing 200 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...
