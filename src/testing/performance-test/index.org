@@ -36,11 +36,11 @@
     RAM             - 16GB   
     #+END_EXAMPLE
   - Lab Containers running on College Cloud server
-    + Only 6 containers of the labs are started on colloege
-      cloud, among the six we used below three labs for
-      performance testing.
+    + Only 6 lab containers are started on colloege cloud,
+      among the six we used below three labs for performance
+      testing.
       1. VLSI - Java lab
-      2. Molecular Absorption Spectroscopy - JavaScript Lab
+      2. Computer Programming - JavaScript Lab
       3. Physical Chemistry - Flash 
   - Install siege on client machine
     + Siege - It was designed for developers and administrators to
