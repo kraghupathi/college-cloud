@@ -35,17 +35,23 @@
     Processor       - Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
     RAM             - 16GB   
     #+END_EXAMPLE
-    
-    - Install siege on client machine
-      + Siege - It was designed for developers and administrators to
-        measure the performance of their applications under load. It
-        can send a configurable number of simultaneous requests to a
-        server. Those requests place that server under siege.
-      + Siege is used to get the output of the performance test.
-      + Install siege using the below command:
-	#+BEGIN_SRC
-	sudo apt-get install siege -y
-	#+END_SRC
+  - Lab Containers running on College Cloud server
+    + Only 6 containers of the labs are started on colloege
+      cloud, among the six we used below three labs for
+      performance testing.
+      1. VLSI - Java lab
+      2. Molecular Absorption Spectroscopy - JavaScript Lab
+      3. Physical Chemistry - Flash 
+  - Install siege on client machine
+    + Siege - It was designed for developers and administrators to
+      measure the performance of their applications under load. It
+      can send a configurable number of simultaneous requests to a
+      server. Those requests place that server under siege.
+    + Siege is used to get the output of the performance test.
+    + Install siege using the below command:
+      #+BEGIN_SRC
+      sudo apt-get install siege -y
+      #+END_SRC
 ** Test cases 
     Script used for the below test cases
 
@@ -165,6 +171,15 @@
     |-------+-----------------+------------+--------------------+----------------------|
 
 *** Test Case -002: Performance stats when  8GB RAM on College Cloud Server
-Collge cloud will not work 8GB RAM or below 8GB RAM.
+    College cloud will not work with 8GB RAM or below 8GB
+    RAM.  Because, Only vagrant box (edx platfrom) itself
+    uses 8GB RAM, So we are not able to run vagrant box (edx
+    platform).
+    We have given this 8GB RAM to edx platform as per the
+    OpenedX platform recommendations.
 
-Reason: Only vagrant box (edx platfrom) takes 8GB RAM, So we are not able to run vagrant box (edx platform).
+    Minor tweak needs to be done if we want to run College
+    Cloud server with 8GB RAM. That is, in =Vagrantfile= of
+    vagrant box ( OpenedX Platform), we need to set/modify
+    =vb.memory= variable to minimum of 4GB RAM.
+
