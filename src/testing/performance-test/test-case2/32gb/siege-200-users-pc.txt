@@ -3,23 +3,19 @@
 defaulting to time-based testing: 120 seconds
 ** SIEGE 4.0.2
 ** Preparing 200 concurrent users for battle.
-The server is now under siege...[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
-[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
-[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
-[[1;33merror[0m] socket: read error Connection reset by peer sock.c:539: Connection reset by peer
-
+The server is now under siege...
 Lifting the server siege...
-Transactions:		        8307 hits
-Availability:		       99.95 %
+Transactions:		        2129 hits
+Availability:		       67.74 %
 Elapsed time:		      119.98 secs
-Data transferred:	     1308.77 MB
-Response time:		        2.54 secs
-Transaction rate:	       69.24 trans/sec
-Throughput:		       10.91 MB/sec
-Concurrency:		      176.05
-Successful transactions:        8307
-Failed transactions:	           4
-Longest transaction:	       59.99
-Shortest transaction:	        0.13
+Data transferred:	      335.44 MB
+Response time:		        5.38 secs
+Transaction rate:	       17.74 trans/sec
+Throughput:		        2.80 MB/sec
+Concurrency:		       95.39
+Successful transactions:        3143
+Failed transactions:	        1014
+Longest transaction:	       31.65
+Shortest transaction:	        0.00
  
-Aborted
+Segmentation fault

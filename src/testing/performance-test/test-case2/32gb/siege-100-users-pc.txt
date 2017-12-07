@@ -5,17 +5,17 @@ defaulting to time-based testing: 120 seconds
 ** Preparing 100 concurrent users for battle.
 The server is now under siege...
 Lifting the server siege...
-Transactions:		        2129 hits
-Availability:		      100.00 %
-Elapsed time:		      119.58 secs
-Data transferred:	      335.43 MB
-Response time:		        5.34 secs
-Transaction rate:	       17.80 trans/sec
-Throughput:		        2.81 MB/sec
-Concurrency:		       95.15
-Successful transactions:        2129
-Failed transactions:	           0
-Longest transaction:	       90.84
-Shortest transaction:	        1.03
+Transactions:		        1344 hits
+Availability:		       56.88 %
+Elapsed time:		      119.84 secs
+Data transferred:	      211.76 MB
+Response time:		        5.42 secs
+Transaction rate:	       11.21 trans/sec
+Throughput:		        1.77 MB/sec
+Concurrency:		       60.82
+Successful transactions:        2363
+Failed transactions:	        1019
+Longest transaction:	       64.95
+Shortest transaction:	        0.00
  
-Segmentation fault
+Aborted
