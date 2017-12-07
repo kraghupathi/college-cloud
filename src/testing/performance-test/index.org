@@ -150,12 +150,12 @@
     |-------+-----------------+------------+--------------------+----------------------|
     |   100 | Free RAM in MB  | 8505       | 8734               | 8579                 |
     |       | CPU utilization | 13         | 16                 | 20                   |
-    |       | vmstat          | [[./test-case2/16gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-100-users-cp.txt][raw-data]]             |
+    |       | vmstat          | [[./test-case2/16gb/vmstat-100-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-100-users-cp.txt][raw-data]]             |
     |       | siege           | [[./test-case2/16gb/siege-100-users-vlsi.tx][raw-data]]   | [[./test-case2/16gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-100-users-cp.txt][raw-data]]             |
     |-------+-----------------+------------+--------------------+----------------------|
     |   200 | Free RAM in MB  | 8526       | 8712               | 8578                 |
     |       | CPU utilization | 12         | 14                 | 7                    |
-    |       | vmstat          | [[./test-case2/16gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/16gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-200-users-cp.txt][raw-data]]             |
+    |       | vmstat          | [[./test-case2/16gb/vmstat-200-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/vmstat-200-users-cp.txt][raw-data]]             |
     |       | siege           | [[./test-case2/16gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-200-users-cp.txt][raw-data]]             |
     |-------+-----------------+------------+--------------------+----------------------|
     |   300 | Free RAM in MB  | 8329       | 8173               | 8527                 |
