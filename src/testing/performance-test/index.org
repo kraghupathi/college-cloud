@@ -40,7 +40,7 @@
       + Siege - It was designed for developers and administrators to
         measure the performance of their applications under load. It
         can send a configurable number of simultaneous requests to a
-        server. Those requests place that server ¡°under siege.¡±
+        server. Those requests place that server under siege.
       + Siege is used to get the output of the performance test.
       + Install siege using the below command:
 	#+BEGIN_SRC
@@ -164,24 +164,3 @@
     |       | siege           | [[./test-case2/16gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-300-users-cp.txt][raw-data]]             |
     |-------+-----------------+------------+--------------------+----------------------|
 
-*** Test Case- 003 Performance stats when 8GB RAM on College Cloud Server
-    |-------+-----------------+------------+--------------------+---------------------------|
-    | Users | Memoy/Output    | VLSI(Java) | Physical Chemistry | Molecular Absorption      |
-    |       |                 | Lab        | (Flash) Lab        | Spectroscopy (JavaScript) |
-    |       |                 |            |                    | Lab                       |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   100 | Free RAM in MB  | 29661      | 29868              | 29220                     |
-    |       | CPU utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/32gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-100-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/8gb/siege-100-users-vlsi.txt][raw-data]]   | [[./test-case2/8gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/8gb/siege-100-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   200 | Free RAM in MB  | 29614      | 29827              | 29161                     |
-    |       | CPU Utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/32gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-200-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/8gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/8gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/8gb/siege-200-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
-    |   300 | Free RAM in MB  | 29271      | 29793              | 29116                     |
-    |       | CPU utilization |            |                    |                           |
-    |       | vmstat          | [[./test-case2/32gb/vmstat-300-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-300-users-cp.txt][raw-data]]                  |
-    |       | siege           | [[./test-case2/8gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/8gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/8gb/siege-300-users-cp.txt][raw-data]]                  |
-    |-------+-----------------+------------+--------------------+---------------------------|
