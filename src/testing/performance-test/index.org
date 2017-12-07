@@ -164,3 +164,7 @@
     |       | siege           | [[./test-case2/16gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/16gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/16gb/siege-300-users-cp.txt][raw-data]]             |
     |-------+-----------------+------------+--------------------+----------------------|
 
+*** Test Case -002: Performance stats when  8GB RAM on College Cloud Server
+Collge cloud will not work 8GB RAM or below 8GB RAM.
+
+Reason: Only vagrant box (edx platfrom) takes 8GB RAM, So we are not able to run vagrant box (edx platform).
