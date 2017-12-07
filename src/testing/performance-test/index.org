@@ -47,39 +47,39 @@
 	sudo apt-get install siege -y
 	#+END_SRC
 ** Test cases 
-    Commands used for the below test cases
+    Script used for the below test cases
 
     On client machine
     #+BEGIN_EXAMPLE
-#############physical chemistry#############
-#siege -c 100 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-100-users-pc.txt 2>&1
-#sleep 10s
-#
-#siege -c 200 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-200-users-pc.txt 2>&1
-#sleep 10s
-#
-#siege -c 300 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-300-users-pc.txt 2>&1
-#sleep 10s
-#
-###############computer programming ###########
-siege -c 100 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-100-users-cp.txt 2>&1
-sleep 10s
-
-siege -c 200 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-200-users-cp.txt 2>&1
-sleep 10s
-
-siege -c 300 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-300-users-cp.txt 2>&1
-sleep 10s
-
-###############vlsi lab ####################
-#siege -c 100 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-100-users-vlsi.txt 2>&1
-#sleep 10s
-#
-#siege -c 200 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-200-users-vlsi.txt 2>&1
-#sleep 10s
-#
-#siege -c 300 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-300-users-vlsi.txt 2>&1
-
+    #############physical chemistry#############
+    siege -c 100 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-100-users-pc.txt 2>&1
+    sleep 10s
+    
+    siege -c 200 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-200-users-pc.txt 2>&1
+    sleep 10s
+    
+    siege -c 300 -r 1 -t 2M http://ccnsb06-iiith.vlabs.ac.in/exp6_10/IR_Powder_exp6.swf > siege-300-users-pc.txt 2>&1
+    sleep 10s
+    
+    ###############computer programming ###########
+    siege -c 100 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-100-users-cp.txt 2>&1
+    sleep 10s
+    
+    siege -c 200 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-200-users-cp.txt 2>&1
+    sleep 10s
+    
+    siege -c 300 -r 1 -t 2M http://cse02-iiith.vlabs.ac.in/exp4/simulation/2-D/index.html > siege-300-users-cp.txt 2>&1
+    sleep 10s
+    
+    ###############vlsi lab ####################
+    siege -c 100 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-100-users-vlsi.txt 2>&1
+    sleep 10s
+    
+    siege -c 200 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-200-users-vlsi.txt 2>&1
+    sleep 10s
+    
+    siege -c 300 -r 1 -t 2M http://cse14-iiith.vlabs.ac.in/final-build/EXP_1sep2010/exp1/exp1.html > siege-300-users-vlsi.txt 2>&1
+    
     #+END_EXAMPLE
 
     On College Cloud server machine
@@ -125,18 +125,18 @@ sleep 10s
     |       |                     | Lab        | (Flash) Lab        | (JavaScript)         |
     |       |                     |            |                    | Lab                  |
     |-------+---------------------+------------+--------------------+----------------------|
-    |   100 | Free RAM in MB      | 1100       | 1240               | 1096                 |
-    |       | CPU utilization (%) | 5          | 12                 | 15                   |
+    |   100 | Free RAM in MB      | 24197      | 24328              | 24242                |
+    |       | CPU utilization (%) | 13         | 12                 | 14                   |
     |       | vmstat              | [[./test-case2/32gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-100-users-cp.txt][raw-data]]             |
     |       | siege               | [[./test-case2/32gb/siege-100-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-100-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
-    |   200 | Free RAM in MB      | 1127       | 1234               | 1108                 |
-    |       | CPU utilization     | 7          | 16                 | 9                    |
+    |   200 | Free RAM in MB      | 24201      | 24305              | 24212                |
+    |       | CPU utilization     | 12         | 16                 | 12                   |
     |       | vmstat              | [[./test-case2/32gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-200-users-cp.txt][raw-data]]             |
     |       | Siege               | [[./test-case2/32gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-200-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
-    |   300 | Free RAM in MB      | 1099       | 1240               | 1118                 |
-    |       | CPU utilization     | 9          | 9                  | 9                    |
+    |   300 | Free RAM in MB      | 24197      | 24267              | 24195                |
+    |       | CPU utilization     | 12         | 12                 | 12                   |
     |       | vmstat              | [[./test-case2/32gb/vmstat-300-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-300-users-cp.txt][raw-data]]             |
     |       | Siege               | [[./test-case2/32gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-300-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
