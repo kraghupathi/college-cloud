@@ -127,17 +127,17 @@
     |-------+---------------------+------------+--------------------+----------------------|
     |   100 | Free RAM in MB      | 24197      | 24328              | 24242                |
     |       | CPU utilization (%) | 13         | 12                 | 14                   |
-    |       | vmstat              | [[./test-case2/32gb/vmstat-100-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-100-users-cp.txt][raw-data]]             |
+    |       | vmstat              | [[./test-case2/32gb/vmstat-100-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/vmstat-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-100-users-cp.txt][raw-data]]             |
     |       | siege               | [[./test-case2/32gb/siege-100-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-100-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-100-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
     |   200 | Free RAM in MB      | 24201      | 24305              | 24212                |
     |       | CPU utilization     | 12         | 16                 | 12                   |
-    |       | vmstat              | [[./test-case2/32gb/vmstat-200-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-200-users-cp.txt][raw-data]]             |
+    |       | vmstat              | [[./test-case2/32gb/vmstat-200-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/vmstat-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-200-users-cp.txt][raw-data]]             |
     |       | Siege               | [[./test-case2/32gb/siege-200-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-200-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-200-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
     |   300 | Free RAM in MB      | 24197      | 24267              | 24195                |
     |       | CPU utilization     | 12         | 12                 | 12                   |
-    |       | vmstat              | [[./test-case2/32gb/vmstat-300-users-cse14.txt][raw-data]]   | [[./test-case2/32gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-300-users-cp.txt][raw-data]]             |
+    |       | vmstat              | [[./test-case2/32gb/vmstat-300-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/vmstat-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/vmstat-300-users-cp.txt][raw-data]]             |
     |       | Siege               | [[./test-case2/32gb/siege-300-users-vlsi.txt][raw-data]]   | [[./test-case2/32gb/siege-300-users-pc.txt][raw-data]]           | [[./test-case2/32gb/siege-300-users-cp.txt][raw-data]]             |
     |-------+---------------------+------------+--------------------+----------------------|
 
