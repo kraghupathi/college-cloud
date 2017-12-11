@@ -52,10 +52,25 @@
        to its clients. This would need configuration of LAN settings
        in the router such that router's dhcp server would serve IPs
        from the above IP range to its clients.
+
+       - NOTE 1 :: Configuration of Wifi router would be
+                   different from router to router. Because
+                   of this reason, steps are not updated
+                   here in this document.
+
+       - NOTE 2 :: In network terminology, 10.2.57.0/24
+                    means a network range from 10.2.57.0 to
+                    10.2.57.255.
+       - NOTE 3 :: While configuring router, 10.2.57.1 IP
+                   has to be given to the wifi router. This
+                   is needed because to access or configure
+                   wifi router again in future if necessary
+                   by browsing this ip in the browser.
        
-       *NOTE :: During Wi-Fi router configuration, DNS server should be
-       10.2.57.62.* *Adding DNS server ip, varies from router to
-       router. For example*,
+       - NOTE 4 :: During Wi-Fi router configuration, DNS
+                   server should be 10.2.57.62.* *Adding DNS
+                   server ip, varies from router to
+                   router. For example*,
        #+BEGIN_EXAMPLE
        primary DNS 10.2.57.62
        or
@@ -66,9 +81,17 @@
        domain name 10.2.57.62
        #+END_EXAMPLE
        
-  2. Connect the identified College Cloud machine to the configured
-     Wi-Fi router through a LAN cable. *Please do not touch the WAN
-     port*.
+  2. Connect the identified College Cloud machine to the
+     configured Wi-Fi router through a LAN cable. *Please do
+     not touch the WAN port*. 
+
+     - NOTE :: WAN port is a "Wide Area Network".  In
+               general, while configuring Wifi router, this
+               port is needed in order to provide Internet
+               connection to its connected clients.  But for
+               College Cloud server setup, Internet is not
+               in the scope, so ignore the port.
+
   3. Connect the College Cloud Edition Hard Disk Drive to the
      identified College Cloud machine.
   4. Boot the machine from College Cloud Edition Hard Disk Drive.
@@ -77,17 +100,41 @@
                first login . To change the password, follow the [[./installation-manual.org::#passwords][link]]
 ** Launch Virtual Labs (Open edX) platform
    1. Run the following command on terminal to run Virtual Labs on Open
-      edX platform. This may take a few minutes to launch the platform.
+      edX platform. This may take a few minutes to launch
+      the platform.
+      
        #+BEGIN_EXAMPLE
        cd vagrant-boxes
        vagrant-boxes$vagrant up     #Look for Vagrant file in "vlabs" account and run this command
-       vagrant-boxes$vagrant up --provision
+       vagrant-boxes$vagrant up --provision       
        #+END_EXAMPLE
+      If the output of both the commands throws like below,
+      please ignore, that are warnings only and not major
+      errors.
+       #+BEGIN_EXAMPLE
+       Warning: vagrant was unable to mount VirtualBox shared folders. This is usually
+       because the filesystem "vboxsf" is not available. This filesystem is
+       made available via the VirtualBox Guest Additions and kernel module.
+       Please verify that these guest additions are properly installed in the
+       guest. This is not a bug in Vagrant and is usually caused by a faulty
+       Vagrant box. For context, the command attempted was:
+       
+       mount -t vboxsf -o uid=1000,gid=1000 vagrant /vagrant
+       
+       The error output from the command was:
+       #+END_EXAMPLE
+       #+BEGIN_EXAMPLE
+       vlabs_platform: stdin: is not a tty
+       #+END_EXAMPLE
+
+      - vagrant :: Vagrant is a tool for building and
+                   managing virtual machine environments
    2. College Cloud edition of Virtual Labs is now ready for use.
    3. [[./installation-manual.org::#instructions][Follow the instructions]] to access vlabs.ac.in page
    4. Access the vlabs.ac.in page, at this time no lab simulations
       would be accessible. To access the simulations of the labs,
       first understand [[./installation-manual.org::#using-cc-server][Using College Cloud Edition]]
+
 
 * Using College Cloud Edition
   :PROPERTIES:
@@ -381,7 +428,7 @@
       python get_logs.py full       #to get full dump
       #+END_SRC
    5. Logs(Collected logs will be saved in
-      =/var/www/college-cloud-data/=
+      =/var/www/html/college-cloud-data/=
    6. Once the logs are connected, [[#share][share]] that logs to VLEAD team   
 *** Sharing Analytics logs with Virtual Labs Central Engineering Division
     :PROPERTIES:
@@ -579,6 +626,7 @@
   :PROPERTIES:
   :CUSTOM_ID: clone-cc
   :END:      
+
 * Passwords
   :PROPERTIES:
   :CUSTOM_ID: passwords
